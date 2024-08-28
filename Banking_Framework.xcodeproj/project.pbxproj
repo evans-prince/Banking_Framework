@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A327A9B82C7F22340081F408 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A327A9B72C7F22340081F408 /* main.cpp */; };
+		A327A9CA2C7F22B30081F408 /* LinearProbing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A327A9C02C7F22B30081F408 /* LinearProbing.cpp */; };
+		A327A9CB2C7F22B30081F408 /* Chaining.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A327A9C12C7F22B30081F408 /* Chaining.cpp */; };
+		A327A9CC2C7F22B30081F408 /* CubicProbing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A327A9C22C7F22B30081F408 /* CubicProbing.cpp */; };
+		A327A9CD2C7F22B30081F408 /* Comp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A327A9C32C7F22B30081F408 /* Comp.cpp */; };
+		A327A9CE2C7F22B30081F408 /* QuadraticProbing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A327A9C62C7F22B30081F408 /* QuadraticProbing.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A327A9B22C7F22340081F408 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A327A9B42C7F22340081F408 /* Banking_Framework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Banking_Framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A327A9B72C7F22340081F408 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A327A9BE2C7F22B30081F408 /* run.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		A327A9BF2C7F22B30081F408 /* CubicProbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicProbing.h; sourceTree = "<group>"; };
+		A327A9C02C7F22B30081F408 /* LinearProbing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearProbing.cpp; sourceTree = "<group>"; };
+		A327A9C12C7F22B30081F408 /* Chaining.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chaining.cpp; sourceTree = "<group>"; };
+		A327A9C22C7F22B30081F408 /* CubicProbing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CubicProbing.cpp; sourceTree = "<group>"; };
+		A327A9C32C7F22B30081F408 /* Comp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Comp.cpp; sourceTree = "<group>"; };
+		A327A9C42C7F22B30081F408 /* Comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comp.h; sourceTree = "<group>"; };
+		A327A9C52C7F22B30081F408 /* LinearProbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearProbing.h; sourceTree = "<group>"; };
+		A327A9C62C7F22B30081F408 /* QuadraticProbing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadraticProbing.cpp; sourceTree = "<group>"; };
+		A327A9C72C7F22B30081F408 /* BaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClass.h; sourceTree = "<group>"; };
+		A327A9C82C7F22B30081F408 /* Chaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chaining.h; sourceTree = "<group>"; };
+		A327A9C92C7F22B30081F408 /* QuadraticProbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadraticProbing.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A327A9B12C7F22340081F408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A327A9AB2C7F22340081F408 = {
+			isa = PBXGroup;
+			children = (
+				A327A9B62C7F22340081F408 /* Banking_Framework */,
+				A327A9B52C7F22340081F408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A327A9B52C7F22340081F408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A327A9B42C7F22340081F408 /* Banking_Framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A327A9B62C7F22340081F408 /* Banking_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A327A9C72C7F22B30081F408 /* BaseClass.h */,
+				A327A9C12C7F22B30081F408 /* Chaining.cpp */,
+				A327A9C82C7F22B30081F408 /* Chaining.h */,
+				A327A9C32C7F22B30081F408 /* Comp.cpp */,
+				A327A9C42C7F22B30081F408 /* Comp.h */,
+				A327A9C22C7F22B30081F408 /* CubicProbing.cpp */,
+				A327A9BF2C7F22B30081F408 /* CubicProbing.h */,
+				A327A9C02C7F22B30081F408 /* LinearProbing.cpp */,
+				A327A9C52C7F22B30081F408 /* LinearProbing.h */,
+				A327A9C62C7F22B30081F408 /* QuadraticProbing.cpp */,
+				A327A9C92C7F22B30081F408 /* QuadraticProbing.h */,
+				A327A9BE2C7F22B30081F408 /* run.sh */,
+				A327A9B72C7F22340081F408 /* main.cpp */,
+			);
+			path = Banking_Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A327A9B32C7F22340081F408 /* Banking_Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A327A9BB2C7F22340081F408 /* Build configuration list for PBXNativeTarget "Banking_Framework" */;
+			buildPhases = (
+				A327A9B02C7F22340081F408 /* Sources */,
+				A327A9B12C7F22340081F408 /* Frameworks */,
+				A327A9B22C7F22340081F408 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Banking_Framework;
+			productName = Banking_Framework;
+			productReference = A327A9B42C7F22340081F408 /* Banking_Framework */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A327A9AC2C7F22340081F408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A327A9B32C7F22340081F408 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A327A9AF2C7F22340081F408 /* Build configuration list for PBXProject "Banking_Framework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A327A9AB2C7F22340081F408;
+			productRefGroup = A327A9B52C7F22340081F408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A327A9B32C7F22340081F408 /* Banking_Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A327A9B02C7F22340081F408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A327A9CC2C7F22B30081F408 /* CubicProbing.cpp in Sources */,
+				A327A9CB2C7F22B30081F408 /* Chaining.cpp in Sources */,
+				A327A9CE2C7F22B30081F408 /* QuadraticProbing.cpp in Sources */,
+				A327A9CA2C7F22B30081F408 /* LinearProbing.cpp in Sources */,
+				A327A9B82C7F22340081F408 /* main.cpp in Sources */,
+				A327A9CD2C7F22B30081F408 /* Comp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A327A9B92C7F22340081F408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A327A9BA2C7F22340081F408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A327A9BC2C7F22340081F408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A327A9BD2C7F22340081F408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A327A9AF2C7F22340081F408 /* Build configuration list for PBXProject "Banking_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A327A9B92C7F22340081F408 /* Debug */,
+				A327A9BA2C7F22340081F408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A327A9BB2C7F22340081F408 /* Build configuration list for PBXNativeTarget "Banking_Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A327A9BC2C7F22340081F408 /* Debug */,
+				A327A9BD2C7F22340081F408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A327A9AC2C7F22340081F408 /* Project object */;
+}
